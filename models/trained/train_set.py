@@ -9,7 +9,6 @@ from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import cv2
 from tqdm import tqdm
 from skimage.util import view_as_windows
 from PIL import Image
