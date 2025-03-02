@@ -6,10 +6,10 @@ import medmnist
 from medmnist import PathMNIST
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import cv2
+# import cv2
 from tqdm import tqdm
 from skimage.util import view_as_windows
 from PIL import Image
@@ -68,8 +68,9 @@ def generate_feature(images, labels, kernel, step):
             vars = np.var(windows, axis=(-2, -1)) 
             rec.extend(means.flatten())  
             rec.extend(vars.flatten())
-        rec.append(labels[i])
+        rec.append(int(labels[i]))
         res_df.loc[len(res_df)] = rec
+    res_df = res_df.astype(int)
     return res_df
 
 train = generate_feature(train_images, train_labels, 7, 7)
