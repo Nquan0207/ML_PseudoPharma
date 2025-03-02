@@ -6,10 +6,13 @@ import medmnist
 from medmnist import PathMNIST
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-# import cv2
+<<<<<<< HEAD
+import cv2
+=======
+>>>>>>> e76f99c3762c635b3b8035e8a8b50adb6dd1deed
 from tqdm import tqdm
 from skimage.util import view_as_windows
 from PIL import Image
