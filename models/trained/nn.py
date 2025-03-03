@@ -146,6 +146,9 @@ nn = NeuralNetwork(
 )
 nn.train(X_train, y_train, epochs=100)
 
+print(X_train.shape[1])
+print(num_classes)
+
 y_pred = nn.forward(X_test)
 predictions = (
     np.argmax(y_pred, axis=1) if num_classes > 2 else (y_pred > 0.5).astype(int)

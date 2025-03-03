@@ -9,10 +9,7 @@ from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-<<<<<<< HEAD
 import cv2
-=======
->>>>>>> e76f99c3762c635b3b8035e8a8b50adb6dd1deed
 from tqdm import tqdm
 from skimage.util import view_as_windows
 from PIL import Image
@@ -74,6 +71,7 @@ def generate_feature(images, labels, kernel, step):
         rec.append(int(labels[i]))
         res_df.loc[len(res_df)] = rec
     res_df = res_df.astype(int)
+    res_df['label'] = res_df['label'].astype(int) 
     return res_df
 
 train = generate_feature(train_images, train_labels, 7, 7)
