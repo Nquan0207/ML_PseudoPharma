@@ -16,13 +16,13 @@ y_train = train['label']
 X_test = test.drop(columns ='label')
 y_test = test['label']
 
-nb_model = GaussianNB()
-nb_model.fit(X_train, y_train)
+# nb_model = GaussianNB()
+# nb_model.fit(X_train, y_train)
 
-y_pred = nb_model.predict(X_test)
+# y_pred = nb_model.predict(X_test)
 
-accuracy = accuracy_score(y_test, y_pred)
-print(f"Accuracy: {accuracy:.4f}")
+# accuracy = accuracy_score(y_test, y_pred)
+# print(f"Accuracy: {accuracy:.4f}")
 
 ### With GA
 
