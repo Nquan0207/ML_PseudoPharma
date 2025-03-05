@@ -33,7 +33,7 @@ creator.create("Individual", list, fitness=creator.FitnessMax)
 
 IND_SIZE = 1  # One parameter to optimize
 POP_SIZE = 20
-NGEN = 5
+NGEN = 100
 MUTPB = 0.2
 CXPB = 0.5
 
