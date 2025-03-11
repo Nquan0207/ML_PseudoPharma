@@ -17,7 +17,7 @@ random.seed(seed)
 torch.manual_seed(seed)
 
 # Create directory for preprocessed data
-preprocessed_dir = "../../data/preprocessed/"
+preprocessed_dir = "../../data/preprocessed"
 os.makedirs(preprocessed_dir, exist_ok=True)
 
 # Data Handling & Preprocessing
@@ -79,4 +79,6 @@ np.savez("C:\\Users\\Alan Phan\\Desktop\\Bach Khoa Studies\\HK242\\Machine Learn
 np.savez("C:\\Users\\Alan Phan\\Desktop\\Bach Khoa Studies\\HK242\\Machine Learning\\Assignments\\AI-MedMNIST-Classification\\AI-MedMNIST-Classification\\data\\preprocessed\\test_data.npz", x_test=x_test_selected, y_test=y_test)
 
 print("Preprocessed data saved successfully!")
+
+
 
