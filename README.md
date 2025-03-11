@@ -1,6 +1,6 @@
 # Machine Learning Pipeline Repository  
-Group name: ML_PseudoPharma  
-Group member: Vo Nguyen Phat, Nguyen Hoang Quan, Tran Tuan Kiet
+- Group name: ML_PseudoPharma  
+- Group member: Vo Nguyen Phat, Nguyen Hoang Quan, Tran Tuan Kiet
 
 ## Description  
 This repository contains the implementation of a machine learning pipeline, covering data preprocessing, model training, and evaluation.  
