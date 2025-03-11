@@ -1,5 +1,5 @@
 # Machine Learning Pipeline Repository  
-Group name: ML_PseudoPharma
+Group name: ML_PseudoPharma  
 Group member: Vo Nguyen Phat, Nguyen Hoang Quan, Tran Tuan Kiet
 
 ## Description  
