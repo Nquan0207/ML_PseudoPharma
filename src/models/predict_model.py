@@ -4,10 +4,11 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import classification_report, confusion_matrix
-
 # Define the model path
-model_path = os.path.join(os.path.dirname(__file__), "../../models/trained/decision_tree_best_grid.pkl")
-# Load the trained model
+model_path = os.path.join(os.path.dirname(__file__),
+                          "./train_model/models/trained/best_decision_tree_model.pkl")
+
+# Load the model
 best_tree_model = joblib.load(model_path)
 print("Model loaded successfully!")
 # Load the dataset

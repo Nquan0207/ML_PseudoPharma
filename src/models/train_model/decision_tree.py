@@ -11,6 +11,9 @@ dt_classifier = DecisionTreeClassifier()
 grid_search = GridSearchCV(estimator=dt_classifier, param_grid=param_grid, cv=5, scoring='accuracy')
 grid_search.fit(x_train, y_train)
 
+# Output the best parameters and best score from cross-validation
+print("Best Parameters Found:", grid_search.best_params_)
+print("Best Cross-Validation Score:", grid_search.best_score_)
 # Get best model
 best_model = grid_search.best_estimator_
 
@@ -22,7 +25,7 @@ print(classification_report(y_test, y_pred))
 print("Best Parameters:", grid_search.best_params_)
 
 # save model
-model_save_path = os.path.join("models", "trained", "decision_tree_best_grid.pkl")
+model_save_path = os.path.join("models", "trained", "best_decision_tree_model.pkl")
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(model_save_path), exist_ok=True)
