@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine Learning Pipeline Repository  
 Group name: ML_PseudoPharma
 Group member: Vo Nguyen Phat, Nguyen Hoang Quan, Tran Tuan Kiet
@@ -66,3 +67,6 @@ After training, models can be evaluated using the notebooks available in the not
 
 ## Contact
 For questions or support, please create an issue on this repository.
+=======
+# ML_PseudoPharma
+>>>>>>> 6025fcbf21c6a926743037d0c4985eec58dae0b9
