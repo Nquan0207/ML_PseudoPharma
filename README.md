@@ -10,17 +10,17 @@ In this repository, there are three machine learning implemented models: Decisio
 
 ## Repository Structure  
 |── data  
-│ |── preprocessed/ # Contains preprocessed data files (.npz)  
-│  
+| |── preprocessed/ # Contains preprocessed data files (.npz)  
+|  
 |── models  
-│ |── trained/ # Contains trained model files (.pkl)  
-│  
+| |── trained/ # Contains trained model files (.pkl)  
+|  
 |── notebooks  
-│ |── *.ipynb # Jupyter notebooks for model training and evaluation  
-│  
+| |── *.ipynb # Jupyter notebooks for model training and evaluation  
+|  
 |── src  
-│ |── data/ # Python scripts for data preprocessing  
-│ |── models/ # Python scripts for training model. These files are converted from notebooks in folder **notebooks**  
+| |── data/ # Python scripts for data preprocessing  
+| |── models/ # Python scripts for training model. These files are converted from notebooks in folder **notebooks**  
 
 
 ## Installation  
