@@ -5,7 +5,9 @@
 ## Description  
 This repository contains the implementation of a machine learning pipeline, covering data preprocessing, model training, and evaluation.  
 
-In this repository, there are three machine learning implemented models: Decision Tree, Neural Netowrk (MLP Approach), Naive Bayes with Genetic Algorithm Optimizer, and Bayesian Network.
+In this repository, there are three machine learning implemented models: Decision Tree, Neural Netowrk (MLP Approach), Naive Bayes with Genetic Algorithm Optimizer, and Bayesian Network.  
+
+For more informations, we have the report *"Machine_Learning_report.pdf"* which records our discussion on deeper insight of the models.
 
 
 ## Repository Structure  
