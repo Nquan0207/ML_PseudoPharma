@@ -12,7 +12,7 @@ For more informations, we have the report ***"Machine_Learning_report.pdf"*** wh
 
 ## Repository Structure  
 │── data  
-│ ├── preprocessed/   # Contains preprocessed data files (.npz). The train dataset is too heavy to push to github.
+│ ├── preprocessed/   # Contains preprocessed data files (.npz).
 │  
 │── models  
 │ ├── trained/  # Python scripts for training model. These files are converted from notebooks in folder **notebooks**  
