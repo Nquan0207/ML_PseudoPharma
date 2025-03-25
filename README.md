@@ -21,7 +21,7 @@ For more informations, we have the report ***"Machine_Learning_report.pdf"*** wh
 │ ├── *.ipynb   # Jupyter notebooks for model training and evaluation  
 │  
 │── src  
-│ ├── data/     # Python scripts for data preprocessing. This file create ".npz" data file stored in folder **data**
+│ ├── data/     # Python scripts for data preprocessing. This file create ".npz" data file stored in folder **data**  
 │ ├── models/   # Python scripts for importing model to make predictions
 
 ## Installation  
