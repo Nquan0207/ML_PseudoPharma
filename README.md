@@ -12,17 +12,17 @@ For more informations, we have the report ***"Machine_Learning_report.pdf"*** wh
 
 ## Repository Structure  
 │── data  
-│ ├── preprocessed/   # Contains preprocessed data files (.npz)  
+│ ├── preprocessed/   # Contains preprocessed data files (.npz). The train dataset is too heavy to push to github.
 │  
 │── models  
-│ ├── trained/   # Contains trained model files (.pkl)  
+│ ├── trained/  # Python scripts for training model. These files are converted from notebooks in folder **notebooks**  
 │  
 │── notebooks  
 │ ├── *.ipynb   # Jupyter notebooks for model training and evaluation  
 │  
 │── src  
-│ ├── data/   # Python scripts for data preprocessing. This file create ".npz" data file stored in folder **data**
-│ ├── models/   # Python scripts for training model. These files are converted from notebooks in folder **notebooks**  
+│ ├── data/     # Python scripts for data preprocessing. This file create ".npz" data file stored in folder **data**
+│ ├── models/   # Python scripts for importing model to make predictions
 
 ## Installation  
 1. **Clone this repository**  

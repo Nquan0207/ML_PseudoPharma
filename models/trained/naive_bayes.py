@@ -10,9 +10,9 @@ from hyperparam_tuning import *  # Assuming additional functions if needed
 from deap import base, creator, tools, algorithms
 
 # Load preprocessed data
-data = np.load("../../../data/preprocessed/train_data.npz")
+data = np.load("../../data/preprocessed/train_data.npz")
 x_train, y_train = data["x_train"], data["y_train"].ravel()
-data = np.load("../../../data/preprocessed/test_data.npz")
+data = np.load("../../data/preprocessed/test_data.npz")
 x_test, y_test = data["x_test"], data["y_test"].ravel()
 
 # Define fitness function for the Genetic Algorithm

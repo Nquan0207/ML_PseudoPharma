@@ -6,13 +6,13 @@ import joblib
 import os
 
 # Load training data
-train_data_path = os.path.join(os.path.dirname(__file__), "../../../data/preprocessed/train_data.npz")
+train_data_path = os.path.join(os.path.dirname(__file__), "../../data/preprocessed/train_data.npz")
 
 # Load the dataset
 train_data = np.load(train_data_path, allow_pickle=True)
 x_train = train_data_path['x_train']
 y_train = train_data_path['y_train']
-test_data = np.load("../../../data/preprocessed/test_data.npz")
+test_data = np.load("../../data/preprocessed/test_data.npz")
 x_test = test_data['x_test']
 y_test = test_data['y_test']
 print(x_train[0:10])

@@ -75,8 +75,8 @@ x_train_selected = selector.fit_transform(x_train_pca, y_train)
 x_test_selected = selector.transform(x_test_pca)
 
 # Save preprocessed data in npz format
-np.savez("C:\\Users\\Alan Phan\\Desktop\\Bach Khoa Studies\\HK242\\Machine Learning\\Assignments\\AI-MedMNIST-Classification\\AI-MedMNIST-Classification\\data\\preprocessed\\train_data.npz", x_train=x_train_selected, y_train=y_train)
-np.savez("C:\\Users\\Alan Phan\\Desktop\\Bach Khoa Studies\\HK242\\Machine Learning\\Assignments\\AI-MedMNIST-Classification\\AI-MedMNIST-Classification\\data\\preprocessed\\test_data.npz", x_test=x_test_selected, y_test=y_test)
+np.savez(f"{preprocessed_dir}/train_data.npz", x_train=x_train_selected, y_train=y_train)
+np.savez(f"{preprocessed_dir}/test_data.npz", x_test=x_test_selected, y_test=y_test)
 
 print("Preprocessed data saved successfully!")
 
