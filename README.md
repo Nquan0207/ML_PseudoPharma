@@ -48,10 +48,6 @@ For more informations, we have the report ***"Machine_Learning_report.pdf"*** wh
 - Performs additional data processing if necessary
 - Training models
 
-💾 Save Models
-📂 models/trained/
-- Stores the best-trained models as .pkl files
-
 
 ## Usage
 Data Preprocessing
