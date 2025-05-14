@@ -28,7 +28,7 @@ For more informations, we have the report ***"Machine_Learning_report.pdf"*** wh
 1. **Clone this repository**  
     ```bash
    git clone https://github.com/Nquan0207/ML_PseudoPharma
-   cd repository-name
+   cd ML_PseudoPharma
 
 2. **Install dependencies**
     ```bash
