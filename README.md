@@ -27,7 +27,7 @@ For more informations, we have the report ***"Machine_Learning_report.pdf"*** wh
 ## Installation  
 1. **Clone this repository**  
     ```bash
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/Nquan0207/ML_PseudoPharma
    cd repository-name
 
 2. **Install dependencies**
