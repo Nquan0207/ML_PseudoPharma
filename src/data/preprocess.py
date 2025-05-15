@@ -7,7 +7,6 @@ import medmnist
 import numpy as np
 from sklearn.decomposition import PCA
 from sklearn.feature_selection import SelectKBest, f_classif
-import joblib
 import random
 
 # Set a fixed random seed for reproducibility
@@ -16,8 +15,12 @@ np.random.seed(seed)
 random.seed(seed)
 torch.manual_seed(seed)
 
-# Create directory for preprocessed data
-preprocessed_dir = "../../data/preprocessed"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# go up two levels to project root, then into data/preprocessed
+preprocessed_dir = os.path.join(script_dir, os.pardir, os.pardir, "data", "preprocessed")
+preprocessed_dir = os.path.abspath(preprocessed_dir)
+
 os.makedirs(preprocessed_dir, exist_ok=True)
 
 # Data Handling & Preprocessing
@@ -79,6 +82,8 @@ np.savez(f"{preprocessed_dir}/train_data.npz", x_train=x_train_selected, y_train
 np.savez(f"{preprocessed_dir}/test_data.npz", x_test=x_test_selected, y_test=y_test)
 
 print("Preprocessed data saved successfully!")
+print(preprocessed_dir)
+
 
 
 
